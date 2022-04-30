@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(116, 177, 230);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.App {
+    background-color: rgb(143, 255, 255);
+    padding: 20px;
+    line-height: 40px;
+    width: 350px;
+    border-radius: 20px;
+
+}
+
+
+
+.formhere {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+}
+
+.formhere input {
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.formhere input:focus {
+    outline: none;
+}
+
+.formhere button {
+    background-color: rgb(148, 148, 245);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 8px 30px;
+}
+
+.clear {
+    background-color: rgb(148, 148, 245);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 8px 30px;
+
+}
